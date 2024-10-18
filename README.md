@@ -31,10 +31,7 @@ QUIC simulations utilized the BBR congestion control algorithm.
 TCP simulations utilized the CUBIC congestion control algorithm.
 The simulations were conducted over five different WIRED network topologies, including:
 
-Point-to-point topology
-Star topology
-Bus topology
-Ring topology
-Mesh topology
+Point-to-point topology -- Star topology -- Bus Topology -- Ring Topology -- Mesh Topology
+
 
 The results of these simulations are documented in the form of graphs and tables, providing a clear comparative analysis of throughput, latency, congestion window behavior, and packet loss.
