@@ -34,4 +34,14 @@ The simulations were conducted over five different WIRED network topologies, inc
 Point-to-point topology -- Star topology -- Bus Topology -- Ring Topology -- Mesh Topology
 
 
-The results of these simulations are documented in the form of graphs and tables, providing a clear comparative analysis of throughput, latency, congestion window behavior, and packet loss.
+PERFORMANCE METRICS CALCULATED
+
+During the simulations, the following key performance metrics are calculated and recorded:
+
+Congestion Window (Cwnd): Monitors the size of the congestion window over time.
+Round-Trip Time (RTT): Measures the round-trip latency between nodes.
+Throughput: Evaluates the rate of data transfer across the network (in Mbps).
+Packet Loss: Tracks the percentage of packets lost during transmission.
+The results are documented in the form of detailed graphs and tables, providing a clear comparative analysis of each protocol's performance in different scenarios.
+
+
