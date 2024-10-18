@@ -1,47 +1,51 @@
-# QUIC-BBR-vs-TCP-CUBIC-comparison-over-Wired-Networks
+# QUIC-BBR vs. TCP-CUBIC Comparison over Wired Networks
 
-This repository is designed for researchers and professionals interested in simulating network protocols using the ns-3 network simulator. The content presented here is the result of my dissertation, which focuses on the comparative performance analysis of two prominent transport protocols:
+This repository is designed for researchers and professionals interested in simulating network protocols using the ns-3 network simulator. The content presented here is the culmination of my dissertation, focusing on the comparative performance analysis of two prominent transport protocols:
 
-QUIC protocol, utilizing the BBR congestion control algorithm
-TCP protocol, utilizing the CUBIC congestion control algorithm
+- **QUIC Protocol**: Utilizing the BBR congestion control algorithm.
+- **TCP Protocol**: Utilizing the CUBIC congestion control algorithm.
 
-The simulations were conducted across five different wired network topologies to assess the performance of both protocols under varying conditions.
+Simulations were conducted across five different wired network topologies to assess the performance of both protocols under varying conditions.
 
-REQUIREMENTS 
+## Requirements
 
-To replicate the simulations and analysis provided in this repository, the following software versions and system setup were used:
+To replicate the simulations and analyses provided in this repository, the following software versions and system setups are required:
 
-ns-3.41 for simulations involving the QUIC protocol.
-ns-3.35 for simulations involving the TCP protocol.
+- **ns-3.41**: For simulations involving the QUIC protocol.
+- **ns-3.35**: For simulations involving the TCP protocol.
 
-You can download them both from the official ns-3 website ->> https://www.nsnam.org/releases/
+You can download them both from the official ns-3 website: [ns-3 Releases](https://www.nsnam.org/releases/).
 
-Ubuntu 18.04 (Bionic Beaver) as the operating system for running the simulations.
+- **Operating System**: Ubuntu 18.04 (Bionic Beaver)
 
-More details on installing Ubuntu 18.04 can be found  here --->>>> https://www.releases.ubuntu.com/bionic/
+For installation details, please refer to: [Ubuntu 18.04 Downloads](https://www.releases.ubuntu.com/bionic/).
 
-For implementing QUIC in ns-3, you can utilize the QUIC module developed by Signet Lab, which is available on their GitHub repository -->>https://github.com/signetlabdei/quic
-Note: The repository may be outdated or moved to a different source, but the relevant information should still be available, and they will provide guidance or redirect you accordingly.
+### QUIC Implementation
 
-PROJECT OVERVIEW
+For implementing QUIC in ns-3, you can utilize the QUIC module developed by Signet Lab, available at their GitHub repository: [Signet Lab QUIC Module](https://github.com/signetlabdei/quic). Note that the repository may be outdated or moved; however, relevant information should still be accessible.
 
-This project is aimed at simulating and comparing the performance of the QUIC and TCP protocols. Specifically:
+## Project Overview
 
-QUIC simulations utilized the BBR congestion control algorithm.
-TCP simulations utilized the CUBIC congestion control algorithm.
-The simulations were conducted over five different WIRED network topologies, including:
+This project aims to simulate and compare the performance of the QUIC and TCP protocols. Specifically:
 
-Point-to-point topology -- Star topology -- Bus Topology -- Ring Topology -- Mesh Topology
+- **QUIC simulations**: Utilized the BBR congestion control algorithm.
+- **TCP simulations**: Utilized the CUBIC congestion control algorithm.
 
+The simulations were conducted over five different wired network topologies:
 
-PERFORMANCE METRICS CALCULATED
+- Point-to-Point
+- Star
+- Bus
+- Ring
+- Mesh
 
-During the simulations, the following key performance metrics are calculated and recorded:
+## Performance Metrics Calculated
 
-Congestion Window (Cwnd): Monitors the size of the congestion window over time.
-Round-Trip Time (RTT): Measures the round-trip latency between nodes.
-Throughput: Evaluates the rate of data transfer across the network (in Mbps).
-Packet Loss: Tracks the percentage of packets lost during transmission.
-The results are documented in the form of detailed graphs and tables, providing a clear comparative analysis of each protocol's performance in different scenarios.
+During the simulations, the following key performance metrics are recorded:
 
+- **Congestion Window (Cwnd)**: Monitors the size of the congestion window over time.
+- **Round-Trip Time (RTT)**: Measures the round-trip latency between nodes.
+- **Throughput**: Evaluates the rate of data transfer across the network (in Mbps).
+- **Packet Loss**: Tracks the percentage of packets lost during transmission.
 
+The results are documented through detailed graphs and tables, providing a comprehensive comparative analysis of each protocol's performance in various scenarios.
